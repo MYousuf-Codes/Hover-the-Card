@@ -45,10 +45,6 @@ html , body {
     width: 300px;
 }
 
-#dev h1:hover{
-    z-index: 10;
-}
-
 #container{
     height: 450px;
     width: 370px;
@@ -79,12 +75,10 @@ html , body {
 
 #card1{
     z-index: 4;
-    background-color: salmon;
 }
 
 #card2{
     z-index: 3;
-   background-color: blue;
    transform: translate(-50%, -50%) rotate(-8deg);
 }
 #card2:hover{
@@ -93,7 +87,6 @@ html , body {
 
 #card3{
     z-index: 2;
-   background-color: green;
    transform: translate(-50%, -50%) rotate(-16deg);
 }
 #card3:hover{
@@ -102,7 +95,6 @@ html , body {
 
 #card4{
     z-index: 1;
-   background-color: yellow;
    transform: translate(-50%, -50%) rotate(-24deg);
 }
 #card4:hover{
